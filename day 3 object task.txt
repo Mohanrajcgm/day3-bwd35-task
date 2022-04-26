@@ -1,0 +1,17 @@
+var salaries={
+    mohan:1000,
+    sunil:2000,
+    helen:3000,
+};
+console.log(salaries.helen);
+for(var key in salaries){
+    console.log(key,"-",salaries[key]);
+}
+
+var resume={
+    name:"mohan",
+    age:23,
+    gender:"male",
+    qualification:"mechanical engineering",
+};
+console.log(JSON.stringify(resume));
